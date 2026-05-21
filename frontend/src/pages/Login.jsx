@@ -182,7 +182,7 @@ const Login = () => {
     setError("");
 
     try {
-      localStorage.removeItem("token");
+      
 
       await api.post("/auth/login", {
         email,
